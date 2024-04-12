@@ -1,0 +1,450 @@
+body {
+    margin: 0px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+}
+
+.heading-text {
+    color: rgb(249, 249, 249);
+    text-align: center;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 200px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.sidenav-items {
+    text-decoration: none;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(16, 253, 95);
+
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.sidenav-items:hover {
+    background-color: green;
+    color: white;
+}
+
+#atm {
+    text-decoration: none;
+}
+
+.img-container {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://th.bing.com/th/id/R.7a7b222ed96c328431a6a2283be23262?rik=fdRSHyyDNYKVXg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fSky-Desktop-Backgrounds-Hd-Images.jpg&ehk=CnA60t9Jiqk7Vj4FfOxbZG%2bZwBln%2fT6XJS91Xq9LBLE%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-container {
+    width: 100%;
+    text-align: center;
+}
+
+.middle-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.sub-middle-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* border: 2px solid rgb(119, 255, 0); */
+}
+
+.button {
+    background-color: #100133;
+    width: 200px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 600;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    /* flex-shrink: 1; */
+}
+
+.button:hover {
+    background-color: greenyellow;
+    border-color: #100133;
+    color: #100133;
+}
+
+.bottom-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.foot {
+    display: inline-flex;
+    position: absolute;
+
+}
+
+.foot1 {
+    margin-top: -40px;
+    margin-right: 10px;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.anchor {
+    cursor: pointer !important;
+}
+
+
+
+/* ------------Withdraw ------------ */
+.Withdraw-main-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://th.bing.com/th/id/R.7a7b222ed96c328431a6a2283be23262?rik=fdRSHyyDNYKVXg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fSky-Desktop-Backgrounds-Hd-Images.jpg&ehk=CnA60t9Jiqk7Vj4FfOxbZG%2bZwBln%2fT6XJS91Xq9LBLE%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.Withdraw-top-container {
+    height: 100px;
+    width: 400px;
+    /* background-color: #100133; */
+    margin-top: -100px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Withdraw-middle-container {
+    height: 250px;
+    width: 300px;
+    background-color: #100133;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10%;
+    color: white;
+}
+
+.Withdraw-main-container-btn {
+    height: 30px;
+    width: 57%;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Withdraw-main-container-btn:hover {
+    background-color: greenyellow;
+    color: #100133;
+}
+
+
+
+/*-------------- Quick cash -------------*/
+
+.QuickCash-middle-container {
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.QuickCash-top-container {
+    height: 100px;
+    width: 400px;
+    /* background-color: aqua; */
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuickCash-items {
+    height: 40px;
+    width: 45%;
+    background-color: #100133;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuickCash-items:hover,
+.QuickCash-Submit-btn:hover {
+    background-color: aqua;
+    color: #100133;
+    border-color: #100133;
+}
+
+.QuickCash-Submit-btn {
+    margin: 40px 0px;
+    height: 40px;
+    width: 45%;
+    background-color: #100133;
+    color: white;
+    border: 3px solid white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------- Diposit -----------------*/
+.Diposit-main-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://th.bing.com/th/id/R.7a7b222ed96c328431a6a2283be23262?rik=fdRSHyyDNYKVXg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fSky-Desktop-Backgrounds-Hd-Images.jpg&ehk=CnA60t9Jiqk7Vj4FfOxbZG%2bZwBln%2fT6XJS91Xq9LBLE%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+
+    /* justify-content: center; */
+}
+
+.Diposit-top-container {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Diposit-middle-container {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.Diposit-items {
+    height: 60px;
+    width: 150px;
+    background-color: #100133;
+    justify-content: center;
+    border: 3px solid white;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.Diposit-items:hover {
+    background-color: greenyellow;
+    color: #100133;
+    border-color: #100133;
+    border-radius: 10px;
+}
+
+/*------------ Balance Enquiry -------------*/
+.BalanceEnquiry-main-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://th.bing.com/th/id/R.7a7b222ed96c328431a6a2283be23262?rik=fdRSHyyDNYKVXg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fSky-Desktop-Backgrounds-Hd-Images.jpg&ehk=CnA60t9Jiqk7Vj4FfOxbZG%2bZwBln%2fT6XJS91Xq9LBLE%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.BalanceEnquiry-top-container {
+    height: 100px;
+    width: 400px;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    margin-top: -40px;
+}
+
+.BalanceEnquiry-SubTop-container {
+    height: 100px;
+    width: 400px;
+    /* background-color: pink; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BalanceEnquiry-middle-container {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(47, 231, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.BalanceEnquiry-btn {
+    height: 60px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: #100133;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.BalanceEnquiry-btn:hover {
+    background-color: greenyellow;
+    border-color: #100133;
+    color: #100133;
+}
+
+/*------------- Pin Change ------------*/
+.pin-top-container {
+    height: 100px;
+    width: 300px;
+    /* background-color: pink; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    color: white;
+    margin-top: -100px;
+}
+
+.pin-middle-container {
+    height: 300px;
+    width: 300px;
+    background-color: #100133;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.final-main-container {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+}
+
+.final-middle-container {
+    height: 100px;
+    width: 400px;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    color: #100133;
+}
+
+.final-btn {
+    height: 40px;
+    width: 100px;
+    background-color: #100133;
+    color: white;
+    border: 2px solid yellowgreen;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-btn:hover {
+    background-color: greenyellow;
+    color: #100133;
+    border-color: #100133;
+}
